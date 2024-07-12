@@ -1,3 +1,7 @@
+-- uncomment in SQLplus for formatting
+--COLUMN ARTISTNAME FORMAT a30
+--COLUMN SONGNAME FORMAT a15
+    
 SELECT 
     artistName, 
     songName, 

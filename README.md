@@ -16,3 +16,5 @@ docker exec -it db23ai sqlplus abu/password123@freepdb1
 
 Now execute createTab.sql to create a table with a vector datatype and loadTab.sql to insert some data.
 
+And afterwards play around with querying (e.g. query01.sql) and indexing (e.g. createIVFindex.sql).
+

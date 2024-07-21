@@ -9,9 +9,9 @@ docker exec -it db23ai ./setPassword.sh password123
 
 docker exec -it db23ai sqlplus sys/password123@freepdb1 as sysdba
 ```
-Then create a user with CONNECT and RESOURCE roles.
+Then create a new user with CONNECT and RESOURCE roles.
 ```
-docker exec -it db23ai sqlplus abu/password123@freepdb1
+docker exec -it db23ai sqlplus newuser/password123@freepdb1
 ```
 
 Now execute createTab.sql to create a table with a vector datatype and loadTab.sql to insert some data.

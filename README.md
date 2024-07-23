@@ -18,3 +18,5 @@ Now execute createTab.sql to create a table with a vector datatype and loadTab.s
 
 And afterwards play around with querying (e.g. query01.sql) and indexing (e.g. createIVFindex.sql, createHNSWindex.sql).
 
+See also my article [Oracle AI Vector - Semantic Search](https://buckenhofer.com/2024/07/oracle-ai-vector-semantic-search/).
+
